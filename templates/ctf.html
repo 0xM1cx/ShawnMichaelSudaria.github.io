@@ -12,27 +12,10 @@
         <li><a id="CTF" href=CTF >CTF Writeups</a></li>	
     </ul>
 </header>
-    <body>
-
-    <button id="ADD" type="button" onclick="Add_Writeup()">Add Writeup</button>
-    <form id="Add_Solution">
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>       
+    <body>    
        
-    <div id="writes">
+     <div id=parent_grid> <!--Start of grid-->
+
         {% for post in posts %}
         <div class="card">
             <div class="card-title">
@@ -48,7 +31,7 @@
         {% endfor %}
         
         {% for post in posts %}
-        <div class="card2">
+        <div class="card">
             <div class="card-title">
                 <h1>{{ post.Title }}</h1>
             </div>
@@ -60,8 +43,28 @@
             </div>
         </div>
         {% endfor %}
-    </div>
+
+        {% for post in posts %}
+        <div class="card">
+            <div class="card-title">
+                <h1>{{ post.Title }}</h1>
+            </div>
+            <hr>
+            <div class="card-body">
+            <h3 class="card-author">BY: {{post.Author}}</h3>
+            <p class="card-text">{{ post.Description }}</p>
+            <p>Posted on: {{ post.Date_posted }}</p>
+            </div>
+        </div>
+        {% endfor %}
+
+     </div>   <!--End of Grid-->
+    
+
+
+
     </body>
 {% endblock %}
+
 
 </html>

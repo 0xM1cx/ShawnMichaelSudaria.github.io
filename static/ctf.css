@@ -1,94 +1,41 @@
 
-/*set user interface*/
-li > a {
-	display: block;
-	float: left;
-	font-size: 18px;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;	
-
-}
-/*set whole html style*/
-html {
-    justify-content: center;
-    align-items: center;
-}
-
 /*Writeup cards*/
+
+#parent_grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-    max-width: 500px;
+    /*max-width: 500px;*/
     padding: 10px;
     text-align: center;
-    margin: auto;
-
-    text-decoration: none;
+    margin: 9px;
 	font-family: 'Architects Daughter', cursive;
     z-index: 0;	
+    width: 429px;
+    
 }
-
-.card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-    max-width: 500px;
-    padding: 10px;
-    text-align: center;
-    margin: auto;
-    text-decoration: none;
-	font-family: 'Architects Daughter', cursive;	
-}
-
 .card-author {
-    text-decoration: none;
 	font-family: 'Architects Daughter', cursive;	
 
 }
 
 .card-title > h1 {
-    text-decoration: none;
 	font-family: 'Architects Daughter', cursive;
 	
 }
 
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(134, 134, 134, 0.7);
+}
 /*Background color for the active button.*/
 #CTF {
-    background-color:  #122131;
+    background-color:  rgb(18, 33, 49);
 }
 
-#add_writeup {
-    display: none;
-    float: center;
-    background-color: transparent;
-    color: whitesmoke;
-	font-family: 'Architects Daughter', cursive;
-	float: left;
-	font-size: 18px;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;
-}
 
-#ADD {
-    background-color: transparent;
-    color: whitesmoke;
-	font-family: 'Architects Daughter', cursive;
-    display: block;
-	float: left;
-	font-size: 18px;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-family: 'Architects Daughter', cursive;	
 
-}
-
-#Add_Solution {
-    display: none;
-    overflow: scroll;
-    z-index: 100;
-    float: center;
-
-}

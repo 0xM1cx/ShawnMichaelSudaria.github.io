@@ -326,6 +326,8 @@ footer{
 	position: bottom;
 	bottom: 0;
 	text-shadow: none;
+	align-items: baseline;
+	
 
 }
 .footer-distributed{
@@ -335,6 +337,7 @@ footer{
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
+	align-items: baseline;
 
 	padding: 55px 50px;
 	margin-top: 80px;
@@ -355,10 +358,12 @@ footer{
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
+	align-items: baseline;
 }
 
 .footer-distributed h3 span{
 	color:  #5383d3;
+	align-items: baseline;
 }
 
 
@@ -366,6 +371,7 @@ footer{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-links a{
@@ -373,6 +379,7 @@ footer{
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-company-name{
@@ -380,11 +387,13 @@ footer{
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
+	align-items: baseline;
 }
 
 
 .footer-distributed .footer-center{
 	width: 35%;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-center i{
@@ -398,11 +407,13 @@ footer{
 	line-height: 42px;
 	margin: 10px 15px;
 	vertical-align: middle;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-center p{
@@ -410,6 +421,7 @@ footer{
 	color: #ffffff;
 	vertical-align: middle;
 	margin:0;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-center p span{
@@ -417,15 +429,18 @@ footer{
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-center p a{
 	color:  #5383d3;
-	text-decoration: none;;
+	text-decoration: none;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-right{
 	width: 20%;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-company-about{
@@ -434,6 +449,7 @@ footer{
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-company-about span{
@@ -442,10 +458,12 @@ footer{
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-icons{
 	margin-top: 25px;
+	align-items: baseline;
 }
 
 .footer-distributed .footer-icons a{
@@ -455,6 +473,7 @@ footer{
 	cursor: pointer;
 	background-color:  #33383b;
 	border-radius: 2px;
+	align-items: baseline;
 
 	font-size: 20px;
 	color: #ffffff;
@@ -470,6 +489,7 @@ footer{
 
 	.footer-distributed{
 		font: bold 14px sans-serif;
+		align-items: baseline;
 	
 	}
 
@@ -484,6 +504,8 @@ footer{
 
 	.footer-distributed .footer-center i{
 		margin-left: 0;
+		display: flex;
+		align-items: baseline;
 	}
 	.main {
 		line-height: normal;
